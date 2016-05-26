@@ -1,0 +1,44 @@
+h2 {
+    color: white;
+    font-family: Abel;
+    margin: 15px 0 0 0;
+    text-align: center;
+    padding: 0;
+    width: 92%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px silver;
+}
+div {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: 10px ridge silver;
+    border-radius: 20px;
+    max-width: 500px;
+    background-color: black;
+}
+video {
+    width: 80%;
+    margin: 0;
+}
+p {
+    padding-top: 20px;
+}
+button {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    box-shadow: 0 0 5px white;
+    background: black;
+}
+button:hover {
+  box-shadow: 0 0 10px 5px silver;
+}
+video::cue {
+    font-size: 150%;
+}
